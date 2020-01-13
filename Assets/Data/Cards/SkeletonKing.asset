@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d15ef4fbf8c1b34da8b4482eb3cf8b8, type: 3}
   m_Name: SkeletonKing
   m_EditorClassIdentifier: 
+  cardType: {fileID: 11400000, guid: 41cef3d7971454748b3bb7f7ff055663, type: 2}
   properties:
   - stringValue: Skeleking
     intValue: 0
