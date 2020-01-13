@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d15ef4fbf8c1b34da8b4482eb3cf8b8, type: 3}
+  m_Name: SkeletonKing
+  m_EditorClassIdentifier: 
+  properties:
+  - stringValue: Skeleking
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: de30df5a3ca94354dba3784ca1d5b7d1, type: 2}
+  - stringValue: Internet Person
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 5fe85bab07a17db4e80dee0ee09058ab, type: 2}
+  - stringValue: This big boy can raise a creature from the graveyard into play I
+      guess.
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 34083e1cade1181438e5afd7b606b60f, type: 2}
+  - stringValue: '"Hey check out this flavor text." - Lazy Dev'
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 97f22379e78419641a3613a2902dcf1d, type: 2}
+  - stringValue: 
+    intValue: 0
+    sprite: {fileID: 21300000, guid: eb85ad94dd669a34e8f2455e2e461edc, type: 3}
+    element: {fileID: 11400000, guid: 186280983d4ba8245b74b4ccfd960788, type: 2}
+  - stringValue: 
+    intValue: 3
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 15c927047da753247b1fbde1b817ea6a, type: 2}
+  - stringValue: 
+    intValue: 5
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 5e68253bcdd5d8d45aeaae8d5d023566, type: 2}
+  - stringValue: 
+    intValue: 7
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 8b15688141945aa49b8364dd9fb54110, type: 2}
