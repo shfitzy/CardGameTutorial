@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Debug : MonoBehaviour
+public class DebugTest : MonoBehaviour
 {
     void Start()
     {

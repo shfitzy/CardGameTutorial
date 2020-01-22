@@ -1,19 +1,15 @@
 ﻿using UnityEngine;
+using CardGameDemo.GameStates;
 
 namespace CardGameDemo
 {
-    public static class GameManager
+    public class GameManager : MonoBehaviour
     {
-        private static ResourcesManager _resourcesManager;
+        public State currentState;
 
-        public static ResourcesManager GetResourcesManager()
+        public void Update()
         {
-            if(_resourcesManager == null)
-            {
-                _resourcesManager = Resources.Load("ResourcesManager") as ResourcesManager;
-            }
-
-            return _resourcesManager;
+            currentState.Tick(Time.deltaTime);
         }
     }
 }
