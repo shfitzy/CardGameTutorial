@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49d99b64116c2a24986464e98e7aa330, type: 3}
-  m_Name: MouseOverDetection
+  m_Name: OnMouseHighlight
   m_EditorClassIdentifier: 

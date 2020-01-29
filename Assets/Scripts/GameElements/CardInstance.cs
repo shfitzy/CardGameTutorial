@@ -4,15 +4,20 @@ namespace CardGameDemo
 {
     public class CardInstance : MonoBehaviour, IClickable
     {
+        public GameElements.GE_Logic currentLogic;
+
         public void OnClick()
         {
-            
+            if (currentLogic == null) return;
+
+            currentLogic.OnClick(this);
         }
 
         public void OnHighlight()
         {
-            Vector3 s = Vector3.one * 2;
-            this.transform.localScale = s;
+            if (currentLogic == null) return;
+
+            currentLogic.OnHighlight(this);
         }
     }
 }
