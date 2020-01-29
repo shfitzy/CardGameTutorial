@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18efb029e6c3dc14987d925b056434a4, type: 3}
-  m_Name: My Hand Card
+  m_Script: {fileID: 11500000, guid: 72dfcf616b80c5f41a7009c47d3db688, type: 3}
+  m_Name: CurrentCard
   m_EditorClassIdentifier: 
-  currentCard: {fileID: 11400000, guid: ca6e31e7814e2d54d9417539ef06ce6d, type: 2}
+  value: {fileID: 0}
