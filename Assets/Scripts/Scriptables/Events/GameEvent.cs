@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace SO
@@ -7,7 +6,7 @@ namespace SO
     [CreateAssetMenu(menuName = "Game Event")]
     public class GameEvent : ScriptableObject
     {
-        List<GameEventListener> listeners = new List<GameEventListener>();
+        readonly List<GameEventListener> listeners = new List<GameEventListener>();
 
         public void Register(GameEventListener l)
         {

@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18efb029e6c3dc14987d925b056434a4, type: 3}
   m_Name: My Hand Card
   m_EditorClassIdentifier: 
+  onCurrentCardSelected: {fileID: 11400000, guid: 73a42797ec7de334aa8bb8c978ec293c,
+    type: 2}
   currentCard: {fileID: 11400000, guid: ca6e31e7814e2d54d9417539ef06ce6d, type: 2}
+  holdingCardState: {fileID: 11400000, guid: 1169d0d8fc44fde45942eb99ab3f1cab, type: 2}

@@ -5490,6 +5490,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1303433856}
   - component: {fileID: 1303433857}
+  - component: {fileID: 1303433858}
+  - component: {fileID: 1303433859}
   m_Layer: 0
   m_Name: CurrentSelectedCard
   m_TagString: Untagged
@@ -5531,6 +5533,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentCard: {fileID: 11400000, guid: ca6e31e7814e2d54d9417539ef06ce6d, type: 2}
   cardViz: {fileID: 1588487830}
+--- !u!114 &1303433858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303433855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a055b694402bd469a86915f1319e61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 73a42797ec7de334aa8bb8c978ec293c, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1303433857}
+        m_MethodName: LoadCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1303433859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303433855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a055b694402bd469a86915f1319e61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 73a42797ec7de334aa8bb8c978ec293c, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1317298005
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -18,9 +18,15 @@ namespace CardGameDemo
             cardViz.gameObject.SetActive(true);
         }
 
+        public void CloseCard()
+        {
+            cardViz.gameObject.SetActive(false);
+        }
+
         private void Start()
         {
             mTransform = this.transform;
+            CloseCard();
         }
 
         void Update()

@@ -1,9 +1,13 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace CardGameDemo
 {
     public static class Settings
     {
+        public static GameManager gameManager;
+
         private static ResourcesManager _resourcesManager;
 
         public static ResourcesManager GetResourcesManager()
@@ -14,6 +18,19 @@ namespace CardGameDemo
             }
 
             return _resourcesManager;
+        }
+
+        public static List<RaycastResult> GetUIObjects()
+        {
+            PointerEventData pointerData = new PointerEventData(EventSystem.current)
+            {
+                position = Input.mousePosition
+            };
+
+            List<RaycastResult> results = new List<RaycastResult>();
+            EventSystem.current.RaycastAll(pointerData, results);
+
+            return results;
         }
     }
 }
