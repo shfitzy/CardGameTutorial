@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee550c92c54aa404aa160f2c7b6f826e, type: 3}
   m_Name: MyCardsDownAreaLogic
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
-  creatureType: {fileID: 0}
+  card: {fileID: 11400000, guid: ca6e31e7814e2d54d9417539ef06ce6d, type: 2}
+  creatureType: {fileID: 11400000, guid: d2c894d634f98d348b648e97168d7436, type: 2}
+  areaGrid: {fileID: 11400000, guid: 6d3794c2141bd004babbc3dad36c8679, type: 2}
+  cardDownLogic: {fileID: 11400000, guid: 34e40ae6484a10640a3d1687257e4fbf, type: 2}

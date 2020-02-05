@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12897fcdb1047a14bbda7e5540e5184e, type: 3}
-  m_Name: My Card Down
+  m_Name: MyCardDown
   m_EditorClassIdentifier: 

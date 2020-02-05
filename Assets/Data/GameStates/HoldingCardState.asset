@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: HoldingCardState
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b15a3ad3c1ed31f459f12eda47c3375b, type: 2}

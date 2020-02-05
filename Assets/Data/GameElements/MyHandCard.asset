@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18efb029e6c3dc14987d925b056434a4, type: 3}
-  m_Name: My Hand Card
+  m_Name: MyHandCard
   m_EditorClassIdentifier: 
   onCurrentCardSelected: {fileID: 11400000, guid: 73a42797ec7de334aa8bb8c978ec293c,
     type: 2}

@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0555d28dae4185649991c47c45914677, type: 3}
   m_Name: OnMouseHoldWithCard
   m_EditorClassIdentifier: 
-  playerControlState: {fileID: 0}
-  onPlayerControlState: {fileID: 0}
+  currentCard: {fileID: 11400000, guid: ca6e31e7814e2d54d9417539ef06ce6d, type: 2}
+  playerControlState: {fileID: 11400000, guid: 514a8ede048fe8e45a997d20114cf5b0, type: 2}
+  onPlayerControlState: {fileID: 11400000, guid: 5d85b710804fa6b46a4acd69d509f86d,
+    type: 2}
