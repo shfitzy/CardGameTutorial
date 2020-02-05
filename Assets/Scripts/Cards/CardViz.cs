@@ -8,11 +8,6 @@ namespace CardGameDemo
         public CardVizProperties[] properties;
         public GameObject statsHolder;
 
-        private void Start()
-        {
-            LoadCard(card);
-        }
-
         public void LoadCard(Card c)
         {
             if (c == null)

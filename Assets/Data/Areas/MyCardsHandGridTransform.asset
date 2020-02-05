@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9eaf57ed1ae31c14c8620398cb3936c9, type: 3}
-  m_Name: ResourcesManager
+  m_Script: {fileID: 11500000, guid: 034edd6a9f7307741b5b416ea4dd83d9, type: 3}
+  m_Name: MyCardsHandGridTransform
   m_EditorClassIdentifier: 
-  typeElement: {fileID: 11400000, guid: bd00dcb3efc50fe41900bd577a6f112e, type: 2}
-  allCards:
-  - {fileID: 11400000, guid: 0b40e7c9a4dc360458e2f5f0d7d9edf6, type: 2}
+  value: {fileID: 0}
